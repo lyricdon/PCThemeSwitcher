@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851B6BB22043FE0B000ED414 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6BB12043FE0B000ED414 /* AppDelegate.m */; };
+		851B6BBA2043FE0B000ED414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851B6BB92043FE0B000ED414 /* Assets.xcassets */; };
+		851B6BBD2043FE0B000ED414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851B6BBB2043FE0B000ED414 /* LaunchScreen.storyboard */; };
+		851B6BC02043FE0B000ED414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6BBF2043FE0B000ED414 /* main.m */; };
+		851B6BCB2043FED4000ED414 /* NSObject+PCThemeSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6BCA2043FED4000ED414 /* NSObject+PCThemeSwitcher.m */; };
+		851B6BCE204400B8000ED414 /* PCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6BCD204400B8000ED414 /* PCTabBarController.m */; };
+		851B6BD120440178000ED414 /* PCThemeCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6BD020440178000ED414 /* PCThemeCollectionController.m */; };
+		851B6BD4204401D7000ED414 /* PCNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6BD3204401D7000ED414 /* PCNaviController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851B6BAD2043FE0A000ED414 /* PCThemeSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCThemeSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851B6BB02043FE0B000ED414 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		851B6BB12043FE0B000ED414 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		851B6BB92043FE0B000ED414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851B6BBC2043FE0B000ED414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		851B6BBE2043FE0B000ED414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851B6BBF2043FE0B000ED414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		851B6BC92043FED4000ED414 /* NSObject+PCThemeSwitcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PCThemeSwitcher.h"; sourceTree = "<group>"; };
+		851B6BCA2043FED4000ED414 /* NSObject+PCThemeSwitcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PCThemeSwitcher.m"; sourceTree = "<group>"; };
+		851B6BCC204400B8000ED414 /* PCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCTabBarController.h; sourceTree = "<group>"; };
+		851B6BCD204400B8000ED414 /* PCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCTabBarController.m; sourceTree = "<group>"; };
+		851B6BCF20440178000ED414 /* PCThemeCollectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCThemeCollectionController.h; sourceTree = "<group>"; };
+		851B6BD020440178000ED414 /* PCThemeCollectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCThemeCollectionController.m; sourceTree = "<group>"; };
+		851B6BD2204401D7000ED414 /* PCNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCNaviController.h; sourceTree = "<group>"; };
+		851B6BD3204401D7000ED414 /* PCNaviController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCNaviController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851B6BAA2043FE0A000ED414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		851B6BA42043FE0A000ED414 = {
+			isa = PBXGroup;
+			children = (
+				851B6BAF2043FE0A000ED414 /* PCThemeSwitcher */,
+				851B6BAE2043FE0A000ED414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		851B6BAE2043FE0A000ED414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851B6BAD2043FE0A000ED414 /* PCThemeSwitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851B6BAF2043FE0A000ED414 /* PCThemeSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				851B6BC62043FE58000ED414 /* ThemeColor */,
+				851B6BB02043FE0B000ED414 /* AppDelegate.h */,
+				851B6BB12043FE0B000ED414 /* AppDelegate.m */,
+				851B6BCC204400B8000ED414 /* PCTabBarController.h */,
+				851B6BCD204400B8000ED414 /* PCTabBarController.m */,
+				851B6BD2204401D7000ED414 /* PCNaviController.h */,
+				851B6BD3204401D7000ED414 /* PCNaviController.m */,
+				851B6BCF20440178000ED414 /* PCThemeCollectionController.h */,
+				851B6BD020440178000ED414 /* PCThemeCollectionController.m */,
+				851B6BB92043FE0B000ED414 /* Assets.xcassets */,
+				851B6BBB2043FE0B000ED414 /* LaunchScreen.storyboard */,
+				851B6BBE2043FE0B000ED414 /* Info.plist */,
+				851B6BBF2043FE0B000ED414 /* main.m */,
+			);
+			path = PCThemeSwitcher;
+			sourceTree = "<group>";
+		};
+		851B6BC62043FE58000ED414 /* ThemeColor */ = {
+			isa = PBXGroup;
+			children = (
+				851B6BC92043FED4000ED414 /* NSObject+PCThemeSwitcher.h */,
+				851B6BCA2043FED4000ED414 /* NSObject+PCThemeSwitcher.m */,
+			);
+			path = ThemeColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851B6BAC2043FE0A000ED414 /* PCThemeSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851B6BC32043FE0B000ED414 /* Build configuration list for PBXNativeTarget "PCThemeSwitcher" */;
+			buildPhases = (
+				851B6BA92043FE0A000ED414 /* Sources */,
+				851B6BAA2043FE0A000ED414 /* Frameworks */,
+				851B6BAB2043FE0A000ED414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCThemeSwitcher;
+			productName = PCThemeSwitcher;
+			productReference = 851B6BAD2043FE0A000ED414 /* PCThemeSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851B6BA52043FE0A000ED414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = PCTheme.com;
+				TargetAttributes = {
+					851B6BAC2043FE0A000ED414 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 851B6BA82043FE0A000ED414 /* Build configuration list for PBXProject "PCThemeSwitcher" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 851B6BA42043FE0A000ED414;
+			productRefGroup = 851B6BAE2043FE0A000ED414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851B6BAC2043FE0A000ED414 /* PCThemeSwitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851B6BAB2043FE0A000ED414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851B6BBD2043FE0B000ED414 /* LaunchScreen.storyboard in Resources */,
+				851B6BBA2043FE0B000ED414 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851B6BA92043FE0A000ED414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851B6BD120440178000ED414 /* PCThemeCollectionController.m in Sources */,
+				851B6BCE204400B8000ED414 /* PCTabBarController.m in Sources */,
+				851B6BD4204401D7000ED414 /* PCNaviController.m in Sources */,
+				851B6BC02043FE0B000ED414 /* main.m in Sources */,
+				851B6BB22043FE0B000ED414 /* AppDelegate.m in Sources */,
+				851B6BCB2043FED4000ED414 /* NSObject+PCThemeSwitcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		851B6BBB2043FE0B000ED414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851B6BBC2043FE0B000ED414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851B6BC12043FE0B000ED414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		851B6BC22043FE0B000ED414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851B6BC42043FE0B000ED414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PCThemeSwitcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PCTheme.PCThemeSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		851B6BC52043FE0B000ED414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PCThemeSwitcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PCTheme.PCThemeSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851B6BA82043FE0A000ED414 /* Build configuration list for PBXProject "PCThemeSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851B6BC12043FE0B000ED414 /* Debug */,
+				851B6BC22043FE0B000ED414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851B6BC32043FE0B000ED414 /* Build configuration list for PBXNativeTarget "PCThemeSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851B6BC42043FE0B000ED414 /* Debug */,
+				851B6BC52043FE0B000ED414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851B6BA52043FE0A000ED414 /* Project object */;
+}
