@@ -67,8 +67,8 @@ static NSString * const reuseIdentifier = @"Cell";
 {
     // 取出cell
     UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
-    UIImage *img = nil;
-    switch (indexPath.row % 3)
+    UIImage *img = [UIImage new];
+    switch (indexPath.row % 5)
     {
         case 0:
             img = [[UIImage imageNamed:@"banner"] resizableImageWithCapInsets:UIEdgeInsetsZero resizingMode:UIImageResizingModeStretch];
@@ -81,6 +81,11 @@ static NSString * const reuseIdentifier = @"Cell";
         case 2:
             img = [[UIImage imageNamed:@"bannerB"] resizableImageWithCapInsets:UIEdgeInsetsZero resizingMode:UIImageResizingModeStretch];
             break;
+            
+        case 3:
+            img = [[UIImage imageNamed:@"bannerC"] resizableImageWithCapInsets:UIEdgeInsetsZero resizingMode:UIImageResizingModeStretch];
+            break;
+            
         default:
             break;
     }
